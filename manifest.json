@@ -3,7 +3,7 @@
   "display": "standalone",
   "icons": [{
     "src": "./logo.svg",
-    "sizes": "72x72"
+    "sizes": "48x48 72x72 128x128 144x144 168x168 192x192 256x256"
   }],
   "name": "React Calculator",
   "short_name": "Calculator",
