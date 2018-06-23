@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  margin-top: 100%;
+  width: 100%;
+}
+
+.utils-clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+@media only screen and (max-width: 767px) and (min-aspect-ratio: 13/9) {
+  .md-select-field--toolbar .md-select-field .md-select-field--text-field {
+    margin-top: 9px;
+  }
+
+  .md-btn--toolbar {
+    margin: 0;
+  }
+}

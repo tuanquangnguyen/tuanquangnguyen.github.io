@@ -1,0 +1,104 @@
+.react-calc {
+  height: 100%;
+  width: 100%;
+}
+
+.react-calc-display {
+  padding-bottom: 25px;
+}
+
+.react-calc__expression, .react-calc__result {
+  float: right;
+  font-weight: 300;
+  min-width: 100%;
+  padding: 0 28px 0 0;
+  text-align: right;
+}
+
+.react-calc__expression {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 56px;
+  height: 84px;
+  letter-spacing: -0.05px;
+  line-height: 84px;
+  margin-bottom: 11px;
+}
+
+.react-calc__result {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 34px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+.react-calc-functions {
+  height: calc(100% - 216px);
+  width: 100%;
+}
+
+.react-calc-btn {
+  margin: 0;
+  min-width: initial;
+}
+
+.react-calc-btn::before, .react-calc-btn::after {
+  height: 0;
+  position: static;
+}
+
+.react-calc-btn-panel {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+.react-calc__numbers {
+  width: 75%;
+}
+
+.react-calc__numbers .react-calc-btn {
+  font-size: 34px;
+  font-weight: 300;
+  height: 25%;
+  line-height: 40px;
+  width: calc(100% / 3);
+}
+
+.react-calc__basic-operators {
+  width: 25%;
+}
+
+.react-calc__basic-operators .react-calc-btn {
+  font-size: 20px;
+  font-weight: 300;
+  height: 20%;
+  line-height: 28px;
+  width: 100%;
+}
+
+/**
+ * Mobile landscape media query
+ */
+@media only screen and (max-width: 767px) and (min-aspect-ratio: 13/9) {
+  .react-calc__display {
+    padding-bottom: 5px;
+  }
+
+  .react-calc__expression, .react-calc__result {
+    padding: 0 48px 0 0;
+  }
+
+  .react-calc__expression {
+    font-size: 34px;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-bottom: 2px;
+  }
+
+  .react-calc-functions {
+    height: calc(100% - 155px);
+    width: 100%;
+  }
+}
