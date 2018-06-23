@@ -1,6 +1,10 @@
 {
   "background_color": "#ffffff",
   "display": "standalone",
+  "icons": [{
+    "src": "logo.svg",
+    "sizes": "72x72"
+  }],
   "name": "React Calculator",
   "short_name": "Calculator",
   "start_url": "./index.html",

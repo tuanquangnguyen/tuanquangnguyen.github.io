@@ -1,0 +1,29 @@
+<svg height="72" version="1.1" viewBox="0 0 192 192" width="72" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#bdbdbd">
+    <rect height="76" rx="12" ry="12" width="76" x="20" y="20" />
+    <rect height="76" width="12" x="84" y="20" />
+    <rect height="12" width="76" x="20" y="84" />
+  </g>
+  <g fill="#424242">
+    <rect height="76" rx="12" ry="12" width="76" x="96" y="20" />
+    <rect height="76" width="12" x="96" y="20" />
+    <rect height="12" width="76" x="96" y="84" />
+  </g>
+  <g fill="#757575">
+    <rect height="76" rx="12" ry="12" width="76" x="20" y="96" />
+    <rect height="76" width="12" x="84" y="96" />
+    <rect height="12" width="76" x="20" y="96" />
+  </g>
+  <g fill="#64b5f6">
+    <rect height="76" rx="12" ry="12" width="76" x="96" y="96" />
+    <rect height="76" width="12" x="96" y="96" />
+    <rect height="12" width="76" x="96" y="96" />
+  </g>
+  <g fill="#ffffff">
+    <polygon points="39,54 54,54 54,39 62,39 62,54 77,54 77,62 62,62 62,77 54,77 54,62 39,62" />
+    <rect height="8" width="38" x="115" y="54" />
+    <polygon points="44,115 58,129 72,115 77,120 63,134 77,148 72,153 58,139 44,153 39,148 53,134 39,120" />
+    <rect height="8" width="38" x="115" y="122" />
+    <rect height="8" width="38" x="115" y="138" />
+  </g>
+</svg>

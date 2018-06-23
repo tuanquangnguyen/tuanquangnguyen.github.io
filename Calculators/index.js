@@ -10,13 +10,13 @@ class Calculator extends React.Component {
     };
   }
 
-  _setAngleMode = angleMode => {
+  handleAngleModeChange = angleMode => {
     this.setState({
       angleMode: angleMode
     });
   };
 
-  _setInput = e => {
+  handleInputButtonClick = e => {
     e.preventDefault();
     this.setState({
       expression: this.state.expression + e.target.value.toString()
@@ -31,7 +31,7 @@ class Calculator extends React.Component {
           component={ReactMD.Paper}
           history={this.state.history}
           expression={this.state.expression}
-          onAngleModeChange={this._setAngleMode}
+          onAngleModeChange={this.handleAngleModeChange}
           result={this.state.result}
           zDepth={1}
         />
@@ -43,13 +43,13 @@ class Calculator extends React.Component {
                1, 2, 3].map(num => (
                 <InputButton
                   key={`react-calc__number-${num}`}
-                  onClick={this._setInput}
+                  onClick={this.handleInputButtonClick}
                   value={num}
                 />
               ))
             }
-            <InputButton onClick={this._setInput} value="." />
-            <InputButton onClick={this._setInput} value={0} />
+            <InputButton onClick={this.handleInputButtonClick} value="." />
+            <InputButton onClick={this.handleInputButtonClick} value={0} />
           </div>
           <div className="react-calc-btn-panel react-calc__basic-operators">
             {
