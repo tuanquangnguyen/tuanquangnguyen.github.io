@@ -1,24 +1,20 @@
-<svg height="512" version="1.1" viewBox="0 0 192 192" width="512" xmlns="http://www.w3.org/2000/svg">
-  <g fill="#bdbdbd">
-    <rect height="76" rx="12" ry="12" width="76" x="20" y="20" />
-    <rect height="76" width="12" x="84" y="20" />
-    <rect height="12" width="76" x="20" y="84" />
-  </g>
-  <g fill="#424242">
-    <rect height="76" rx="12" ry="12" width="76" x="96" y="20" />
-    <rect height="76" width="12" x="96" y="20" />
-    <rect height="12" width="76" x="96" y="84" />
-  </g>
-  <g fill="#757575">
-    <rect height="76" rx="12" ry="12" width="76" x="20" y="96" />
-    <rect height="76" width="12" x="84" y="96" />
-    <rect height="12" width="76" x="20" y="96" />
-  </g>
-  <g fill="#64b5f6">
-    <rect height="76" rx="12" ry="12" width="76" x="96" y="96" />
-    <rect height="76" width="12" x="96" y="96" />
-    <rect height="12" width="76" x="96" y="96" />
-  </g>
+<svg height="32" version="1.1" viewBox="0 0 192 192" width="32" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 96,96
+           L 8,96
+           A 88 88 1 0,1 96,8
+           z" fill="#bdbdbd" />
+  <path d="M 96,96
+           L 96,8
+           A 88 88 1 0,1 184,96
+           z" fill="#424242" />
+  <path d="M 96,96
+           L 184,96
+           A 88 88 1 0,1 96,184
+           z" fill="#64b5f6" />
+  <path d="M 96,96
+           L 96,184
+           A 88 88 1 0,1 8,96
+           z" fill="#757575" />
   <g fill="#ffffff">
     <polygon points="39,54 54,54 54,39 62,39 62,54 77,54 77,62 62,62 62,77 54,77 54,62 39,62" />
     <rect height="8" width="38" x="115" y="54" />
