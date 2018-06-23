@@ -2,7 +2,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "icons": [{
-    "src": "logo.svg",
+    "src": "./logo.svg",
     "sizes": "72x72"
   }],
   "name": "React Calculator",
